@@ -1,0 +1,20 @@
+package myjava1;
+public class Myjava1 {
+    public static void main(String[] args) {
+        //1. How to use print:Use print to output text without a newline
+        System.out.print("Hello World");
+        System.out.println("Hello Java!");
+        //Result: Hello World Hello Java!
+        //2. How to use println:Use println to output text followed by a newline
+        System.out.println("Hello World");
+        System.out.println("Hello Java!");
+        /*Result:
+            Hello World
+            Hello Java! 
+        */
+        //3. How to use printf: Use printf for formatted output
+        String text1="Hello World";
+        System.out.printf("" +text1);
+    }
+}
+
